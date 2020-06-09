@@ -19,8 +19,14 @@ var userClickedPattern = [];
 
 var level = 0;
 
-// starting the game.....
+// starting the game via PC.....
 $(document).keydown(() => {  
+    if(level === 0) {  
+        nextSequence();
+    }  
+})
+// starting the game in handsets...
+$("#start_key").click(() => {  
     if(level === 0) {  
         nextSequence();
     }  
