@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  color: #fff;
+}
+
+#level-title, .user {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+#start_key {
+  display: none;
+  color: #000;
+  font-size: 22px;
+  background-color: #11dada;
+  outline: 0;
+  border: 0;
+  padding: 1% 5%;
+  border-radius: 5px;
+  margin: 2% auto 4%;
+}
+#start_key:hover {
+  background-color: #a6f0f0;
+}
+
+.instructions {
+  color: #fff;
+  text-align: left;
+  width: 100%;
+  /* background-color: blue; */
+  padding: 3% 6%;
+}
+#instructions {
+  color: #fff;
+  line-height: 2;
+}
+
+footer #copyright {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.8rem;
+  padding: 2%;
+  background-color: gray;
+}
+
+@media(max-width:1024px) {
+  .container {
+    width: 100%;
+  }
+  #level-title, .user {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    margin:  5%;
+  }
+  #start_key {
+    display: block;
+  }
+  .instructions {
+    width: 99%;
+    padding: 0;
+  }
+}
